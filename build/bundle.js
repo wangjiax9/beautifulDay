@@ -54,7 +54,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "60b91217ef249e83f438"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "19ce4974981aac8f5bba"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -718,7 +718,7 @@
 	  displayName: 'App',
 
 	  render: function render() {
-	    return _react2['default'].createElement('div', { className: 'nav' }, _react2['default'].createElement(_reactRouter.Link, { to: 'app', className: 'homelink' }, 'webpack  '), _react2['default'].createElement(_reactRouter.Link, { to: 'hello', className: 'hellolink' }, '  Say Hello react'), _react2['default'].createElement(_reactRouter.RouteHandler, null));
+	    return _react2['default'].createElement('div', { className: 'nav' }, _react2['default'].createElement(_reactRouter.Link, { to: 'app', className: 'homelink' }, 'webpack  '), _react2['default'].createElement(_reactRouter.Link, { to: 'hello', className: 'hellolink' }, '  Say Hello react !'), _react2['default'].createElement(_reactRouter.RouteHandler, null));
 	  }
 	});
 	var routes = _react2['default'].createElement(_reactRouter.Route, { name: 'app', path: '/', handler: App }, _react2['default'].createElement(_reactRouter.Route, { name: 'hello', path: '/hello', handler: _helloJs2['default'] }));

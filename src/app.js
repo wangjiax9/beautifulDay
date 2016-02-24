@@ -7,7 +7,7 @@ let App = React.createClass({
     return (
       <div className="nav">
         <Link to="app" className="homelink">webpack  </Link>
-        <Link to="hello" className="hellolink">  Say Hello react</Link>
+        <Link to="hello" className="hellolink">  Say Hello react !</Link>
         {/* this is the importTant part */}
         <RouteHandler/>
       </div>
