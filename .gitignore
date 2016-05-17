@@ -21,3 +21,5 @@ Thumbs.db
 /node_modules/
 dist
 project.json
+*.hot-update.js
+*.hot-update.json
