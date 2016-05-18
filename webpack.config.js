@@ -1,13 +1,14 @@
 var webpack = require('webpack');
 module.exports = {
-	entry: [
-		'webpack-dev-server/client?http://localhost:8080',
-		'webpack/hot/only-dev-server',
-		"./src/js/app.js"
-	],
+	entry: {
+		webpack: ['webpack-dev-server/client?http://localhost:8080','webpack/hot/only-dev-server'],
+		app: "./src/js/app.js",
+		demoes5: "./src/js/demo1/demoes5.js",
+		demoes6: "./src/js/demo1/demoes6.js"
+	},
 	output: {
 		path: './build/js',
-		filename: "bundle.js"
+		filename: "[name].js"
 	},
 	module: {
 		loaders: [{
