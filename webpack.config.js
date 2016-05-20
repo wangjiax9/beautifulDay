@@ -4,7 +4,8 @@ module.exports = {
 		webpack: ['webpack-dev-server/client?http://localhost:8080','webpack/hot/only-dev-server'],
 		app: "./src/js/app.js",
 		demoes5: "./src/js/demo1/demoes5.js",
-		demoes6: "./src/js/demo1/demoes6.js"
+		demoes6: "./src/js/demo1/demoes6.js",
+		demo2: "./src/js/demo2/demo2.js"
 	},
 	output: {
 		path: './build/js',
